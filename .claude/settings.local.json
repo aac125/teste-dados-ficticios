@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(pip install *)",
+      "PowerShell(python --version; python -m pip install openpyxl python-docx -q)",
+      "PowerShell(Select-String *)",
+      "PowerShell(python -c \"import pandas; print\\(pandas.__version__\\)\")",
+      "PowerShell($env:PYTHONIOENCODING = \"utf-8\"; cd \"C:\\\\Users\\\\Ariadine Casas\\\\Documents\\\\Teste-dash\"; python gerar_json.py)"
+    ]
+  }
+}

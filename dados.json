@@ -1,0 +1,952 @@
+{
+  "metadata": {
+    "atualizado_em": "2026-05-30T06:00:00Z",
+    "periodo_referencia": "mai/26"
+  },
+  "funil_principal": {
+    "hero": {
+      "pageviews": {
+        "lm": 134545,
+        "delta_mom": null
+      },
+      "contatos_totais": {
+        "lm": 12153,
+        "passivos": 10419,
+        "delta_mom": null
+      },
+      "mqls": {
+        "lm": 5257,
+        "passivos": 3566
+      },
+      "oportunidades": {
+        "lm": 1202,
+        "passivos": 1114
+      },
+      "pipeline_gerado": 42846000
+    },
+    "alertas": [
+      {
+        "tipo": "critical",
+        "texto": "Taxa SQL→OPP LM: 37.0% | Meta: 48% (n/d p.p. vs meta)",
+        "motion": "LM",
+        "kpi": "SQL_OPP"
+      },
+      {
+        "tipo": "info",
+        "texto": "Volume MQL LM no mês: 5.257 leads (n/d% vs meta)",
+        "motion": "LM",
+        "kpi": "Volume_MQL"
+      },
+      {
+        "tipo": "info",
+        "texto": "Pipeline LM gerado: R$22.237.000 (n/d% vs meta de R$8,5M)",
+        "motion": "LM",
+        "kpi": "Pipeline_Gerado"
+      },
+      {
+        "tipo": "info",
+        "texto": "Taxa MQL→SQL Passivos: 92.4% (n/d p.p. vs mês anterior)",
+        "motion": "Passivos",
+        "kpi": "MQL_SQL"
+      },
+      {
+        "tipo": "info",
+        "texto": "Volume MQL Passivos no mês: 3.566 leads (n/d% vs meta)",
+        "motion": "Passivos",
+        "kpi": "Volume_MQL"
+      },
+      {
+        "tipo": "info",
+        "texto": "Taxa MQL→OPP Total: 64.9% (eficiência do funil completo)",
+        "motion": "Total",
+        "kpi": "MQL_OPP"
+      }
+    ],
+    "funil_lm": {
+      "FormFill": 18349,
+      "ContatoT": 12153,
+      "ContatoQ": 8563,
+      "MQL": 5257,
+      "MQLcPerfil": 4923,
+      "SQL": 3246,
+      "Oportunidade": 1202
+    },
+    "funil_passivos": {
+      "FormFill": 18329,
+      "ContatoMKT": 10419,
+      "MQLPassivo": 3566,
+      "SQL": 3296,
+      "Oportunidade": 1114
+    },
+    "carteiras": {
+      "lm": {
+        "medias": {
+          "mqls": 2772,
+          "sqls": 1761,
+          "opps": 661,
+          "conv_mql_sql": 0.6353,
+          "conv_mql_opp": 0.2385,
+          "delta_mqls_mom": null
+        },
+        "enterprise": {
+          "mqls": 1802,
+          "sqls": 1075,
+          "opps": 396,
+          "conv_mql_sql": 0.5966,
+          "conv_mql_opp": 0.2198,
+          "delta_mqls_mom": null
+        },
+        "grandes_contas": {
+          "mqls": 683,
+          "sqls": 410,
+          "opps": 145,
+          "conv_mql_sql": 0.6003,
+          "conv_mql_opp": 0.2123,
+          "delta_mqls_mom": null
+        }
+      },
+      "passivos": {
+        "total": {
+          "mqls": 3566,
+          "sqls": 3296,
+          "opps": 1114,
+          "delta_mqls_mom": null
+        }
+      }
+    },
+    "tendencia_12m": {
+      "labels": [
+        "jun/25",
+        "jul/25",
+        "ago/25",
+        "set/25",
+        "out/25",
+        "nov/25",
+        "dez/25",
+        "jan/26",
+        "fev/26",
+        "mar/26",
+        "abr/26",
+        "mai/26"
+      ],
+      "series": {
+        "medias": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2772
+        ],
+        "enterprise": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1802
+        ],
+        "grandes_contas": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          683
+        ],
+        "misto": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2003
+        ],
+        "organico": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1781
+        ],
+        "pago": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1473
+        ],
+        "passivos": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3566
+        ]
+      }
+    }
+  },
+  "canais_aquisicao": {
+    "mofu_bofu": {
+      "resumo": {
+        "pageviews": 134545,
+        "visitantes_unicos": 107897,
+        "form_fills": 12080,
+        "taxa_conversao": 0.112,
+        "delta_pageviews_mom": null,
+        "delta_form_fills_mom": null
+      },
+      "top_paginas": [
+        {
+          "url_pagina": "https://teste.io/calculadora-roi",
+          "nome_pagina": "Calculadora ROI",
+          "produto": "Multi",
+          "pageviews": 17602,
+          "visitantes_unicos": 14076,
+          "form_fills": 1615,
+          "taxa_conversao": 0.1147
+        },
+        {
+          "url_pagina": "https://teste.io/demo/engajamento",
+          "nome_pagina": "Demo - Engajamento",
+          "produto": "Engajamento",
+          "pageviews": 16610,
+          "visitantes_unicos": 13503,
+          "form_fills": 1598,
+          "taxa_conversao": 0.1183
+        },
+        {
+          "url_pagina": "https://teste.io/demo/treinamentos",
+          "nome_pagina": "Demo - Treinamentos",
+          "produto": "Treinamentos",
+          "pageviews": 17357,
+          "visitantes_unicos": 13995,
+          "form_fills": 1553,
+          "taxa_conversao": 0.111
+        },
+        {
+          "url_pagina": "https://teste.io/demo/ats",
+          "nome_pagina": "Demo - ATS",
+          "produto": "ATS",
+          "pageviews": 17692,
+          "visitantes_unicos": 13851,
+          "form_fills": 1538,
+          "taxa_conversao": 0.111
+        },
+        {
+          "url_pagina": "https://teste.io/demo/plataforma",
+          "nome_pagina": "Demo - Plataforma",
+          "produto": "Multi",
+          "pageviews": 15975,
+          "visitantes_unicos": 12820,
+          "form_fills": 1538,
+          "taxa_conversao": 0.12
+        },
+        {
+          "url_pagina": "https://teste.io/demo/admissao",
+          "nome_pagina": "Demo - Admissão",
+          "produto": "Admissão",
+          "pageviews": 17064,
+          "visitantes_unicos": 13875,
+          "form_fills": 1513,
+          "taxa_conversao": 0.109
+        },
+        {
+          "url_pagina": "https://teste.io/contato",
+          "nome_pagina": "Contato Comercial",
+          "produto": "Multi",
+          "pageviews": 16095,
+          "visitantes_unicos": 12813,
+          "form_fills": 1383,
+          "taxa_conversao": 0.1079
+        },
+        {
+          "url_pagina": "https://teste.io/demo/performance",
+          "nome_pagina": "Demo - Performance",
+          "produto": "Performance",
+          "pageviews": 16150,
+          "visitantes_unicos": 12964,
+          "form_fills": 1342,
+          "taxa_conversao": 0.1035
+        }
+      ]
+    },
+    "tofu": {
+      "materiais": {
+        "pageviews": 94402,
+        "visitantes_unicos": 73485,
+        "form_fills": 14346,
+        "delta_pageviews_mom": null,
+        "delta_form_fills_mom": null
+      },
+      "top_materiais": [
+        {
+          "url_material": "https://teste.io/materiais/pesquisa-clima-2025",
+          "nome_material": "Pesquisa - Clima Organizacional 2025",
+          "tipo_material": "Pesquisa",
+          "pageviews": 10523,
+          "visitantes_unicos": 8272,
+          "form_fills": 1741
+        },
+        {
+          "url_material": "https://teste.io/materiais/guia-admissao-digital",
+          "nome_material": "Guia - Admissão Digital",
+          "tipo_material": "Guia",
+          "pageviews": 11263,
+          "visitantes_unicos": 8707,
+          "form_fills": 1740
+        },
+        {
+          "url_material": "https://teste.io/newsletter",
+          "nome_material": "Newsletter RH Insider",
+          "tipo_material": "Newsletter",
+          "pageviews": 11025,
+          "visitantes_unicos": 8507,
+          "form_fills": 1701
+        },
+        {
+          "url_material": "https://teste.io/materiais/webinar-employer-branding",
+          "nome_material": "Webinar - Employer Branding",
+          "tipo_material": "Webinar",
+          "pageviews": 10607,
+          "visitantes_unicos": 8298,
+          "form_fills": 1695
+        },
+        {
+          "url_material": "https://teste.io/materiais/guia-lgpd-rh",
+          "nome_material": "Guia - LGPD para RH",
+          "tipo_material": "Guia",
+          "pageviews": 10100,
+          "visitantes_unicos": 7791,
+          "form_fills": 1565
+        },
+        {
+          "url_material": "https://teste.io/materiais/ebook-gestao-desempenho",
+          "nome_material": "Ebook - Gestão de Desempenho",
+          "tipo_material": "Ebook",
+          "pageviews": 10382,
+          "visitantes_unicos": 8174,
+          "form_fills": 1515
+        },
+        {
+          "url_material": "https://teste.io/materiais/ebook-tendencias-rh-2026",
+          "nome_material": "Ebook - Tendências de RH 2026",
+          "tipo_material": "Ebook",
+          "pageviews": 10141,
+          "visitantes_unicos": 7771,
+          "form_fills": 1484
+        },
+        {
+          "url_material": "https://teste.io/materiais/calculadora-turnover",
+          "nome_material": "Calculadora de Turnover",
+          "tipo_material": "Calculadora",
+          "pageviews": 10793,
+          "visitantes_unicos": 8336,
+          "form_fills": 1456
+        },
+        {
+          "url_material": "https://teste.io/materiais/webinar-ia-recrutamento",
+          "nome_material": "Webinar - IA no Recrutamento",
+          "tipo_material": "Webinar",
+          "pageviews": 9568,
+          "visitantes_unicos": 7629,
+          "form_fills": 1449
+        }
+      ],
+      "seo": {
+        "semana_referencia": "2026-05-18",
+        "total_kws": 20,
+        "distribuicao": {
+          "top3": 6,
+          "p4_10": 9,
+          "p11_20": 5,
+          "p21_50": 0,
+          "fora": 0
+        },
+        "distribuicao_semana_anterior": {
+          "top3": 7,
+          "p4_10": 6,
+          "p11_20": 6,
+          "p21_50": 1,
+          "fora": 0
+        },
+        "branded_vs_nao": {
+          "branded": 5,
+          "nao_branded": 15
+        },
+        "top_kws": [
+          {
+            "keyword": "teste",
+            "posicao": 1,
+            "posicao_anterior": 3,
+            "volume_busca": 6782,
+            "url_ranqueada": "https://teste.io",
+            "is_branded": true
+          },
+          {
+            "keyword": "teste ats",
+            "posicao": 1,
+            "posicao_anterior": 4,
+            "volume_busca": 2937,
+            "url_ranqueada": "https://teste.io/produto/ats",
+            "is_branded": true
+          },
+          {
+            "keyword": "sistema de recrutamento",
+            "posicao": 1,
+            "posicao_anterior": 1,
+            "volume_busca": 3103,
+            "url_ranqueada": "https://teste.io/produto/ats",
+            "is_branded": false
+          },
+          {
+            "keyword": "teste performance",
+            "posicao": 1,
+            "posicao_anterior": 1,
+            "volume_busca": 652,
+            "url_ranqueada": "https://teste.io/produto/performance",
+            "is_branded": true
+          },
+          {
+            "keyword": "o que e admissao digital",
+            "posicao": 2,
+            "posicao_anterior": 2,
+            "volume_busca": 600,
+            "url_ranqueada": "https://teste.io/blog/admissao-digital",
+            "is_branded": false
+          },
+          {
+            "keyword": "como reduzir turnover de funcionarios",
+            "posicao": 3,
+            "posicao_anterior": 3,
+            "volume_busca": 906,
+            "url_ranqueada": "https://teste.io/blog/reduzir-turnover",
+            "is_branded": false
+          },
+          {
+            "keyword": "software de admissao digital",
+            "posicao": 5,
+            "posicao_anterior": 8,
+            "volume_busca": 1816,
+            "url_ranqueada": "https://teste.io/produto/admissao",
+            "is_branded": false
+          },
+          {
+            "keyword": "teste treinamentos",
+            "posicao": 5,
+            "posicao_anterior": 4,
+            "volume_busca": 930,
+            "url_ranqueada": "https://teste.io/produto/treinamentos",
+            "is_branded": true
+          },
+          {
+            "keyword": "ATS para RH",
+            "posicao": 6,
+            "posicao_anterior": 8,
+            "volume_busca": 2427,
+            "url_ranqueada": "https://teste.io/produto/ats",
+            "is_branded": false
+          },
+          {
+            "keyword": "teste rh",
+            "posicao": 6,
+            "posicao_anterior": 9,
+            "volume_busca": 5169,
+            "url_ranqueada": "https://teste.io",
+            "is_branded": true
+          },
+          {
+            "keyword": "employer branding estrategia",
+            "posicao": 6,
+            "posicao_anterior": 8,
+            "volume_busca": 775,
+            "url_ranqueada": "https://teste.io/blog/employer-branding",
+            "is_branded": false
+          },
+          {
+            "keyword": "recrutamento e selecao",
+            "posicao": 7,
+            "posicao_anterior": 7,
+            "volume_busca": 14164,
+            "url_ranqueada": "https://teste.io/blog/recrutamento",
+            "is_branded": false
+          },
+          {
+            "keyword": "gestao de desempenho software",
+            "posicao": 8,
+            "posicao_anterior": 11,
+            "volume_busca": 1161,
+            "url_ranqueada": "https://teste.io/produto/performance",
+            "is_branded": false
+          },
+          {
+            "keyword": "melhor ats do brasil",
+            "posicao": 8,
+            "posicao_anterior": 7,
+            "volume_busca": 281,
+            "url_ranqueada": "https://teste.io/produto/ats",
+            "is_branded": false
+          },
+          {
+            "keyword": "vantagens de um ats para empresa",
+            "posicao": 9,
+            "posicao_anterior": 9,
+            "volume_busca": 380,
+            "url_ranqueada": "https://teste.io/blog/vantagens-ats",
+            "is_branded": false
+          },
+          {
+            "keyword": "tecnologia para RH",
+            "posicao": 11,
+            "posicao_anterior": 12,
+            "volume_busca": 8363,
+            "url_ranqueada": "https://teste.io/blog/tecnologia-para-rh",
+            "is_branded": false
+          },
+          {
+            "keyword": "sistema rh para grandes empresas",
+            "posicao": 12,
+            "posicao_anterior": 15,
+            "volume_busca": 322,
+            "url_ranqueada": "https://teste.io",
+            "is_branded": false
+          },
+          {
+            "keyword": "plataforma de RH",
+            "posicao": 13,
+            "posicao_anterior": 14,
+            "volume_busca": 6075,
+            "url_ranqueada": "https://teste.io",
+            "is_branded": false
+          },
+          {
+            "keyword": "pesquisa de clima organizacional",
+            "posicao": 18,
+            "posicao_anterior": 21,
+            "volume_busca": 4611,
+            "url_ranqueada": "https://teste.io/produto/clima",
+            "is_branded": false
+          },
+          {
+            "keyword": "engajamento de colaboradores",
+            "posicao": 19,
+            "posicao_anterior": 21,
+            "volume_busca": 5313,
+            "url_ranqueada": "https://teste.io/produto/engajamento",
+            "is_branded": false
+          }
+        ]
+      },
+      "aeo": {
+        "semana_referencia": "2026-04-20",
+        "total_prompts_monitorados": 40,
+        "mencoes": 24,
+        "share_of_voice": 0.6,
+        "delta_sov_sem": -0.1111,
+        "sov_por_llm": {
+          "ChatGPT": 0.5,
+          "Claude": 0.6,
+          "Gemini": 0.6,
+          "Perplexity": 0.7
+        },
+        "trafego_estimado": 2139.0
+      }
+    }
+  },
+  "midia_paga": {
+    "resumo": {
+      "investimento": 155694.86,
+      "impressoes": 5489005,
+      "cliques": 145609,
+      "leads": 10583,
+      "bfs": 19485.7,
+      "cpc_medio": 1.07,
+      "cpl_medio": 14.71,
+      "delta_investimento_mom": null,
+      "delta_leads_mom": null
+    },
+    "por_plataforma": {
+      "GoogleAds": {
+        "investimento": 51239.41,
+        "impressoes": 1915535,
+        "cliques": 53496,
+        "leads": 3700,
+        "bfs": 6488.1,
+        "ctr_medio": 0.028,
+        "cpc_medio": 0.96,
+        "cpl_medio": 13.85
+      },
+      "LinkedIn": {
+        "investimento": 52626.75,
+        "impressoes": 1843753,
+        "cliques": 45324,
+        "leads": 3485,
+        "bfs": 6425.1,
+        "ctr_medio": 0.0254,
+        "cpc_medio": 1.16,
+        "cpl_medio": 15.1
+      },
+      "Meta": {
+        "investimento": 51828.7,
+        "impressoes": 1729717,
+        "cliques": 46789,
+        "leads": 3398,
+        "bfs": 6572.5,
+        "ctr_medio": 0.0276,
+        "cpc_medio": 1.11,
+        "cpl_medio": 15.25
+      }
+    },
+    "top_campanhas": [
+      {
+        "id_campanha": "GA-002",
+        "nome_campanha": "Produto - ATS",
+        "plataforma": "GoogleAds",
+        "objetivo": "Conversão",
+        "investimento": 16457.79,
+        "impressoes": 614010,
+        "cliques": 20200,
+        "leads": 1490,
+        "bfs": 2125.6,
+        "cpl": 11.05
+      },
+      {
+        "id_campanha": "MT-001",
+        "nome_campanha": "Awareness RH Decision Makers",
+        "plataforma": "Meta",
+        "objetivo": "Brand",
+        "investimento": 15806.71,
+        "impressoes": 593225,
+        "cliques": 16098,
+        "leads": 1267,
+        "bfs": 2154.7,
+        "cpl": 12.48
+      },
+      {
+        "id_campanha": "LI-002",
+        "nome_campanha": "Lead Gen - Demo Plataforma",
+        "plataforma": "LinkedIn",
+        "objetivo": "Conversão",
+        "investimento": 16672.43,
+        "impressoes": 605858,
+        "cliques": 15151,
+        "leads": 1253,
+        "bfs": 2150.5,
+        "cpl": 13.31
+      },
+      {
+        "id_campanha": "GA-001",
+        "nome_campanha": "Brand - teste",
+        "plataforma": "GoogleAds",
+        "objetivo": "Brand",
+        "investimento": 16189.5,
+        "impressoes": 687583,
+        "cliques": 16942,
+        "leads": 1194,
+        "bfs": 2222.4,
+        "cpl": 13.56
+      },
+      {
+        "id_campanha": "LI-001",
+        "nome_campanha": "Brand Awareness C-Level",
+        "plataforma": "LinkedIn",
+        "objetivo": "Brand",
+        "investimento": 18148.77,
+        "impressoes": 584830,
+        "cliques": 15943,
+        "leads": 1141,
+        "bfs": 2135.6,
+        "cpl": 15.91
+      },
+      {
+        "id_campanha": "MT-002",
+        "nome_campanha": "Lead Gen - Demo ATS",
+        "plataforma": "Meta",
+        "objetivo": "Conversão",
+        "investimento": 18911.43,
+        "impressoes": 600140,
+        "cliques": 17444,
+        "leads": 1106,
+        "bfs": 2194.2,
+        "cpl": 17.1
+      },
+      {
+        "id_campanha": "LI-003",
+        "nome_campanha": "Event - Webinar IA no RH",
+        "plataforma": "LinkedIn",
+        "objetivo": "Evento",
+        "investimento": 17805.55,
+        "impressoes": 653065,
+        "cliques": 14230,
+        "leads": 1091,
+        "bfs": 2139.0,
+        "cpl": 16.32
+      },
+      {
+        "id_campanha": "MT-003",
+        "nome_campanha": "Retargeting - Blog RH",
+        "plataforma": "Meta",
+        "objetivo": "Retargeting",
+        "investimento": 17110.56,
+        "impressoes": 536352,
+        "cliques": 13247,
+        "leads": 1025,
+        "bfs": 2223.6,
+        "cpl": 16.69
+      },
+      {
+        "id_campanha": "GA-003",
+        "nome_campanha": "Categoria - Recrutamento",
+        "plataforma": "GoogleAds",
+        "objetivo": "Conversão",
+        "investimento": 18592.12,
+        "impressoes": 613942,
+        "cliques": 16354,
+        "leads": 1016,
+        "bfs": 2140.1,
+        "cpl": 18.3
+      }
+    ],
+    "top_criativos": [
+      {
+        "id_criativo": "CRI-002",
+        "nome_criativo": "Como a teste reduziu o tempo de admissão em 60%",
+        "plataforma": "Meta",
+        "formato": "Carrossel",
+        "audiencia": "Diretores e Gerentes de RH",
+        "impressoes": 223973,
+        "cliques": 4260,
+        "leads": 382,
+        "investimento": 6151.38,
+        "bfs": 2212.8
+      },
+      {
+        "id_criativo": "CRI-006",
+        "nome_criativo": "Webinar Gratuito: o futuro do RH em 2026",
+        "plataforma": "LinkedIn",
+        "formato": "Event ad",
+        "audiencia": "Profissionais RH",
+        "impressoes": 184647,
+        "cliques": 4335,
+        "leads": 343,
+        "investimento": 6445.25,
+        "bfs": 2124.7
+      },
+      {
+        "id_criativo": "CRI-007",
+        "nome_criativo": "Como grandes empresas usam a teste",
+        "plataforma": "LinkedIn",
+        "formato": "Carrossel",
+        "audiencia": "C-Level Empresas 200+",
+        "impressoes": 187015,
+        "cliques": 4254,
+        "leads": 377,
+        "investimento": 6130.29,
+        "bfs": 2099.9
+      },
+      {
+        "id_criativo": "CRI-005",
+        "nome_criativo": "IA no Recrutamento: da teoria à prática",
+        "plataforma": "LinkedIn",
+        "formato": "Document ad",
+        "audiencia": "Diretores RH Empresas 500+",
+        "impressoes": 194778,
+        "cliques": 4651,
+        "leads": 396,
+        "investimento": 5791.77,
+        "bfs": 2070.8
+      },
+      {
+        "id_criativo": "CRI-003",
+        "nome_criativo": "[Ebook Grátis] Tendências de RH 2026",
+        "plataforma": "Meta",
+        "formato": "Imagem estática",
+        "audiencia": "Visitantes Blog 14d",
+        "impressoes": 159677,
+        "cliques": 3244,
+        "leads": 313,
+        "investimento": 7539.23,
+        "bfs": 2054.6
+      },
+      {
+        "id_criativo": "CRI-001",
+        "nome_criativo": "Você ainda gasta horas triando currículos?",
+        "plataforma": "Meta",
+        "formato": "Vídeo 30s",
+        "audiencia": "Visitantes 30d + Lookalike",
+        "impressoes": 187494,
+        "cliques": 4128,
+        "leads": 353,
+        "investimento": 7072.59,
+        "bfs": 1955.9
+      }
+    ]
+  },
+  "metas": [
+    {
+      "motion": "LM",
+      "etapa": "MQL_SQL",
+      "carteira": "Total",
+      "tipo_meta": "TaxaConversao",
+      "valor_meta": 0.62,
+      "comentario": "Meta de conversão MQL→SQL aprovada em planejamento Q1"
+    },
+    {
+      "motion": "LM",
+      "etapa": "MQL_SQL",
+      "carteira": "Medias",
+      "tipo_meta": "TaxaConversao",
+      "valor_meta": 0.65,
+      "comentario": "Médias tendem a conversão maior"
+    },
+    {
+      "motion": "LM",
+      "etapa": "MQL_SQL",
+      "carteira": "Enterprise",
+      "tipo_meta": "TaxaConversao",
+      "valor_meta": 0.6,
+      "comentario": null
+    },
+    {
+      "motion": "LM",
+      "etapa": "MQL_SQL",
+      "carteira": "GrandesContas",
+      "tipo_meta": "TaxaConversao",
+      "valor_meta": 0.55,
+      "comentario": "GC tem ciclo mais longo"
+    },
+    {
+      "motion": "LM",
+      "etapa": "SQL_OPP",
+      "carteira": "Total",
+      "tipo_meta": "TaxaConversao",
+      "valor_meta": 0.48,
+      "comentario": null
+    },
+    {
+      "motion": "LM",
+      "etapa": "SQL_OPP",
+      "carteira": "Medias",
+      "tipo_meta": "TaxaConversao",
+      "valor_meta": 0.5,
+      "comentario": null
+    },
+    {
+      "motion": "LM",
+      "etapa": "SQL_OPP",
+      "carteira": "Enterprise",
+      "tipo_meta": "TaxaConversao",
+      "valor_meta": 0.46,
+      "comentario": null
+    },
+    {
+      "motion": "LM",
+      "etapa": "SQL_OPP",
+      "carteira": "GrandesContas",
+      "tipo_meta": "TaxaConversao",
+      "valor_meta": 0.4,
+      "comentario": null
+    },
+    {
+      "motion": "LM",
+      "etapa": "Volume_MQL",
+      "carteira": "Total",
+      "tipo_meta": "Volume",
+      "valor_meta": 2500.0,
+      "comentario": "Meta de volume MQL LM para o mês"
+    },
+    {
+      "motion": "LM",
+      "etapa": "Volume_MQL",
+      "carteira": "Medias",
+      "tipo_meta": "Volume",
+      "valor_meta": 1350.0,
+      "comentario": null
+    },
+    {
+      "motion": "LM",
+      "etapa": "Volume_MQL",
+      "carteira": "Enterprise",
+      "tipo_meta": "Volume",
+      "valor_meta": 850.0,
+      "comentario": null
+    },
+    {
+      "motion": "LM",
+      "etapa": "Volume_MQL",
+      "carteira": "GrandesContas",
+      "tipo_meta": "Volume",
+      "valor_meta": 300.0,
+      "comentario": null
+    },
+    {
+      "motion": "Passivos",
+      "etapa": "MQL_SQL",
+      "carteira": "Total",
+      "tipo_meta": "TaxaConversao",
+      "valor_meta": 0.38,
+      "comentario": "Passivos têm conversão estruturalmente menor"
+    },
+    {
+      "motion": "Passivos",
+      "etapa": "Volume_MQL",
+      "carteira": "Total",
+      "tipo_meta": "Volume",
+      "valor_meta": 950.0,
+      "comentario": null
+    },
+    {
+      "motion": "Total",
+      "etapa": "Pipeline_Gerado",
+      "carteira": "Total",
+      "tipo_meta": "Volume",
+      "valor_meta": 8500000.0,
+      "comentario": "Pipeline em R$ — meta mensal consolidada"
+    }
+  ]
+}
