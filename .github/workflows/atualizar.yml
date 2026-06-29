@@ -1,0 +1,36 @@
+name: Atualizar dados.json
+
+on:
+  schedule:
+    - cron: '0 9 * * *'  # 06h Brasília (UTC-3)
+  workflow_dispatch:       # permite disparar manualmente pela UI do GitHub
+
+jobs:
+  gerar-json:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write      # necessário para o git push com GITHUB_TOKEN
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Instalar dependências
+        run: pip install pandas openpyxl
+
+      - name: Gerar dados.json
+        run: python gerar_json.py
+
+      - name: Commit e push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dados.json
+          git diff --cached --quiet && echo "Sem mudanças no dados.json." || \
+            git commit -m "chore: atualiza dados.json [$(date -u '+%Y-%m-%d %H:%M UTC')]" && git push
