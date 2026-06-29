@@ -485,20 +485,20 @@
             "is_branded": true
           },
           {
-            "keyword": "ATS para RH",
-            "posicao": 6,
-            "posicao_anterior": 8,
-            "volume_busca": 2427,
-            "url_ranqueada": "https://teste.io/produto/ats",
-            "is_branded": false
-          },
-          {
             "keyword": "teste rh",
             "posicao": 6,
             "posicao_anterior": 9,
             "volume_busca": 5169,
             "url_ranqueada": "https://teste.io",
             "is_branded": true
+          },
+          {
+            "keyword": "ATS para RH",
+            "posicao": 6,
+            "posicao_anterior": 8,
+            "volume_busca": 2427,
+            "url_ranqueada": "https://teste.io/produto/ats",
+            "is_branded": false
           },
           {
             "keyword": "employer branding estrategia",
